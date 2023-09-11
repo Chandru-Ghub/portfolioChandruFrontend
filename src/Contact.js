@@ -30,8 +30,9 @@ const Contact = () => {
         }),
         onSubmit:(values,{resetForm})=>{
             resetForm({values :''})
-           const {name,email,message}= values;
-           console.log(name,email,message);
+        //    const {name,email,message}= values;
+        //    console.log(name,email,message);
+           setShowmail(!showmail)
         axios.post('https://portfoliochandru.onrender.com/formdata',{name,email,message})
         .then(msg => {
             console.log(msg)
