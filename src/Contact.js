@@ -35,8 +35,8 @@ const Contact = () => {
            setShowmail(!showmail)
         axios.post('https://portfoliochandru.onrender.com/formdata',{name,email,message})
         .then(msg => {
-            console.log(msg)
-            if(msg.data =='data added') setShowmail(!showmail)
+            console.log(msg.data)
+            // if(msg.data =='data added') setShowmail(!showmail)
         })
         .catch(err => console.log(err))
         }
