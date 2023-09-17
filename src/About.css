@@ -314,6 +314,14 @@
         width: 100%;
     }
   }
+
+  @media (max-width:740px){
+    .cover{
+        /* background-color: red; */
+        padding-left: 12px;
+    }
+}
+
   @media (max-width:400px){
     .marque{
         width: 250px;
@@ -331,7 +339,13 @@
     .db{
         font-size: 90px;
     }
+    .cover{
+        /* background-color: red; */
+        padding-left: 30px;
+    }
   }
+
+
 
   @media (max-width:340px){
     .marque{
@@ -359,6 +373,10 @@
         margin-bottom: -40px;
         color:  rgb(53, 241, 53);
         
+    }
+    .cover{
+        /* background-color: red; */
+        padding-left: 16px;
     }
    
 }
