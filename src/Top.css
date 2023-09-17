@@ -79,7 +79,7 @@
     top: 50%;
     left: 50%;
     font-size: 18px;
-    background-color:  rgb(53, 241, 53);;
+    background-color:  rgb(53, 241, 53);
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -100,4 +100,26 @@
 .imgcontainer:hover .view{
     opacity: 1;
     z-index: 1;
+}
+.way{
+    text-align: center;
+    /* color: rgb(74, 78, 74); */
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.walk{
+    font-size: 35px;
+    color:  rgb(53, 241, 53);
+    /* background-color: red; */
+    padding-bottom: 5px;
+}
+.path{
+    color:  rgb(53, 241, 53);
+    margin-right: -35px;
+ 
+}
+.to{
+     color: rgb(74, 78, 74);
+     margin-left: -20px;
 }

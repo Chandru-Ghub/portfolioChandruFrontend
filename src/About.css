@@ -1,23 +1,24 @@
 .cover{
    padding: 40px;
    width: 50%;
-   min-width: 300px;
+   min-width: 250px;
+   /* background-color: red; */
  
 }
 .about{
     background-color:rgb(9, 13, 33);
-    /* height: 100vh; */
+    height: auto;
     color: rgb(252, 252, 252);
     /* border-top: 2px solid red; */
     padding-top: 100px;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     padding-left: 35px;
- 
-    
-    
+    padding-right: 80px;
+    height: 100vh;
+    /* align-items: center;     */
   }
   .marque{
     border: 2px solid rgb(53, 241, 53);
@@ -74,6 +75,7 @@
  }
   .abouth3{
     color: rgb(53, 241, 53);
+    font-size: 25px;
   }
 
 .im{
@@ -170,27 +172,8 @@
     /* transform: scale(1.2); */
     opacity: 1;
 }
-/* .sp:active{
-    background-color:rgba(237, 233, 233, 0.788);
-    width: 250px;
-    >img{
-        display: block;
-    }
-    transform: rotate(10deg);
-    transform: scale(1.2);
-    opacity: 1;
-} */
 
-.cubeim{
-    /* background-color: red; */
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: rgb(53, 241, 53);
-   
-}
+
 .role{
     animation: x-axis-animation 3s ease-in-out 0s infinite alternate;
     margin-top: 40px;
@@ -203,7 +186,179 @@
 }
 
 
+.aboutQuote{
+    color: rgb(74, 78, 74);
+    margin:10px 0;
+}
+
+/*  */
+
+.cubeim{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(53, 241, 53);
+    position: relative;
+   
+}
+
+.webicons{
+    /* background-color: rgb(17, 26, 201); */
+    padding: 20px;
+    color: rgb(53, 241, 53);
+    opacity: .8;
+    /* display: flex; */
+    cursor: pointer;
+    
+}
+.threeicon{
+    /* background-color: red; */
+    display:flex;
+    position: relative;
+    align-items: center;
+    
+}
+.tec{
+    color: rgb(53, 241, 53);
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.certi{
+    margin-top: 20px;
+    color: rgb(74, 78, 74);
+}
+.inicon{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(111, 114, 110);
+}
+.sett{
+    position: absolute;
+    top:0px;
+    right:-20px;
+    z-index: 1;
+    color:  rgb(80, 240, 80);
+    font-size: 50px;
+    animation: turn 2s infinite;
+}
+.db{
+    font-size: 120px;
+    color:  rgb(53, 241, 53);
+    animation: x-axis-animation 4s ease-in-out 0s infinite alternate;
+}
+.turn{
+    font-size: 70px;
+    /* background-color: pink; */
+    margin-bottom: -100px;
+    color:  rgb(53, 241, 53);
+    
+}
+
+.webicons:hover .turn{
+    animation: turn 5s infinite linear;
+  
+}
+
+.webicons:hover .eco{
+    color:  rgb(53, 241, 53);
+}
+.rtr{
+    background-color: pink;
+}
+.fend{
+    font-size: 120px;
+    text-align: center;
+    color:  rgb(53, 241, 53);
+    width: 100%;
+    animation: x-axis-animation 3s ease-in-out 0s infinite alternate;
+}
+
+.bend{
+    font-size: 120px;
+    color:  rgb(53, 241, 53);
+    animation: x-axis-animation 2s ease-in-out 0s infinite alternate;
+}
+@keyframes turn {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform:  rotate(360deg);
+    }
+}
+
+
 @keyframes x-axis-animation {
     from {transform: rotateX(20deg)}
     to {transform: rotateX(-5deg)}
   }
+
+  @media (max-width:820px){
+
+    .about{
+        /* background-color: white; */
+        padding-right: 0;
+        height: auto;
+    }
+    .cover{
+        width: 100%;
+    }
+    .cubeim{
+        width: 100%;
+    }
+  }
+  @media (max-width:400px){
+    .marque{
+        width: 250px;
+    }
+    .about{
+        /* background-color: white; */
+        padding-left: 0;
+    }
+    .fend{
+        font-size: 90px;
+    }
+    .bend{
+        font-size: 90px;
+    }
+    .db{
+        font-size: 90px;
+    }
+  }
+
+  @media (max-width:340px){
+    .marque{
+        width: 200px;
+    }
+    .fend{
+        font-size: 50px;
+    }
+    .bend{
+        font-size: 50px;
+    }
+    .db{
+        font-size: 50px;
+    }
+    .sett{
+        top:-5px;
+        right:-5px;
+        z-index: 1;
+        color:  rgb(80, 240, 80);
+        font-size: 30px;
+    }
+    .turn{
+        font-size: 50px;
+        /* background-color: pink; */
+        margin-bottom: -40px;
+        color:  rgb(53, 241, 53);
+        
+    }
+   
+}

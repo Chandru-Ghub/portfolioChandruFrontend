@@ -24,10 +24,7 @@ const Footer = () => {
         <Link className='ftnav' to='/#about' smooth > ABOUT</Link>
         <Link className='ftnav' to='/#...' smooth > SOURCE CODE</Link>
         <Link className='ftnav' to='/#contact' smooth >  HIT ME UP</Link>
-        {/* <li className='ftnav'> ABOUT</li> */}
-        {/* <li className='ftnav'> WORK</li> */}
-        {/* <li className='ftnav'> SOURCE CODE</li>
-        <li className='ftnav'> HIT ME UP</li> */}
+      
     </ul>
     <p className='line2'></p>
     <div className='socialMedia'>

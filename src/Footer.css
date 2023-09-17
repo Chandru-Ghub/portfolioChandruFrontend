@@ -115,26 +115,18 @@
     margin-bottom: 30px;
 }
 
+@media (max-width:660px){
+    .navs2{
+       display: flex;
+       flex-direction: column;
+    }
+    .socialMedia{
+        flex-direction: column-reverse;
 
-/* spin */
-
-
-/* .App-logo {
-    height: 10vmin;
-    pointer-events: none;
-  }
-
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
+    }
+    .iconslogo{
+        /* background-color: red; */
+        display: flex;
+        padding-right: 60px;
     }
   }
-
-@keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(20deg);
-    }
-  } */

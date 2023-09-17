@@ -23,7 +23,7 @@ body{
   padding: 10px 10px;
   position: sticky;
   top: 0;
-  background: rgb(9, 13, 33);
+  background-color:rgb(9, 13, 33);
   z-index: 10;
 }
 
@@ -126,17 +126,16 @@ h5{
   font-size: 30px;
 }
 .home{
-  /* background-color: green; */
-  padding: 80px;
-  padding-top: 100px;
+  background-color:rgb(9, 13, 33);
+  padding-left: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  position: sticky;
-  top: 0px;
-  background-color:rgb(9, 13, 33);
+  /* position: sticky;
+  top: 0px; */
+  /* background-color:rgb(9, 13, 33); */
   
 
 }
@@ -177,6 +176,7 @@ margin-top: 20px;
   color: #fbfbfb;
   display: none;
   margin-right: 30px;
+  cursor: pointer;
   
 }
 .onnu{
@@ -222,4 +222,40 @@ margin-top: 20px;
     
   }
  
+}
+@media (max-width:750px){
+
+  .summary{
+    font-size: 19px;
+  }
+  .home{
+    padding-left: 40px;
+  }
+  .build{
+    font-size: 50px;
+  }
+  .pp{
+    font-size: 50px;
+  }
+  .type{
+    font-size: 25px;
+  }
+}
+@media (max-width:350px){
+
+  .summary{
+    font-size: 15px;
+  }
+  .home{
+    padding-left: 20px;
+  }
+  .build{
+    font-size: 40px;
+  }
+  .pp{
+    font-size: 40px;
+  }
+  .type{
+    font-size: 18px;
+  }
 }

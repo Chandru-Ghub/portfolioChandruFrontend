@@ -10,12 +10,8 @@ const Home = () => {
         titleFour: "FullStackDeveloper"
 
     })
-    // const {text} = useTypewriter({
-    //     words:['Chandru','Web Developer','Mern stack'],
-    //     loop:{},
-    // })
-
    
+
   return (
     <div >
     <div  data-aos="fade-right" data-aos-duration="1000" id='home' className='home' >
@@ -44,7 +40,7 @@ const Home = () => {
            </div>
           
            <h2 className='build'>I build things for the web</h2>
-            <p className='summary'>Hardworking and passionate job seeker with strong organizational skills eager to secure entry-level position. Ready to help team achieve company goals.</p>
+            <p className='summary'>Hardworking and Passionate job seeker with strong organizational skills eager to secure entry-level position. Ready to help team achieve company goals.</p>
             </div>
             <div className='cv'>
                 <button className='btncv'>
@@ -58,7 +54,7 @@ const Home = () => {
             </div>
     </div>
     
-   
+    <p className='line1'></p>
     </div>
   )
 }

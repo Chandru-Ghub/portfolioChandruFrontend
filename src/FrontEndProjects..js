@@ -31,7 +31,9 @@ const FrontEndProjects = () => {
                 </button>
         </p>
         
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti alias, quibusdam exercitationem laboriosam at dicta quo nobis beatae, nam recusandae dignissimos reiciendis optio sit. Eius impedit animi molestiae eveniet magnam unde natus sunt, esse temporibus consectetur eaque delectus ad culpa harum excepturi autem corrupti rerum atque tenetur quod aperiam aut perspiciatis. Eum veniam commodi illo porro officia animi dolore molestias debitis, asperiores vitae velit reprehenderit rem quidem dignissimos voluptate amet? Alias asperiores quo, minima veritatis at odit reiciendis rem iusto quas cumque nihil ratione id laborum possimus sapiente. Iste quia perferendis neque error, nemo nobis aliquam vel! Non, placeat exercitationem.
+       <p className='way'>The Way i walk through <span className='path'>__</span> <span class="material-symbols-outlined walk">
+hiking
+</span>  <span className='to'>___</span> </p>
         <div className='thumbnailContainer' >
 
             <div className='imgcontainer' data-aos="fade-right" data-aos-duration="1000">

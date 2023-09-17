@@ -6,9 +6,6 @@ import {motion,useScroll} from 'framer-motion'
 import FrontEndProjects from './FrontEndProjects.';
 import Container from './Container';
 
-
-
-
 const Navbar = () => {
     const {scrollYProgress} = useScroll()
     var fr = '< ';
