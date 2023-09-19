@@ -18,7 +18,7 @@ const Navbar = () => {
    
             <div className='navbar'>
                 {/* page scroll animation */}
-                {/* <motion.div
+                <motion.div
                     style={{
                         scaleX:scrollYProgress,
                         position:'fixed',
@@ -30,7 +30,7 @@ const Navbar = () => {
                         transformOrigin:'0%'
 
                     }}
-                ></motion.div> */}
+                ></motion.div>
                 
                 <div className='logo'>
                     <h4 className='hooklogo'>

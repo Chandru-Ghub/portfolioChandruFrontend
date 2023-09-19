@@ -11,6 +11,7 @@
     color: rgb(252, 252, 252);
     /* border-top: 2px solid red; */
     padding-top: 100px;
+    padding-bottom: 50px;
     display: flex;
     width: 97%;
     flex-wrap: wrap;
