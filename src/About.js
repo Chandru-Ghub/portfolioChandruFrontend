@@ -105,7 +105,7 @@ const About = () => {
       
           </div>
                   
-    {/* <p className='line1'></p> */}
+    <p className='line1'></p>
     </div>
         
    
