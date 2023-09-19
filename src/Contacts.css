@@ -220,7 +220,7 @@
     
     }
     .contactdiv{
-        padding-left: 20px;
+        padding-left: 40px;
     }
    
   }
@@ -231,6 +231,9 @@
     }
     .msg{
         font-size: 15px;
+    }
+    .contactdiv{
+        padding-left: 20px;
     }
 
   }

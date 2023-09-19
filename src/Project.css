@@ -30,9 +30,7 @@
     border: 2px solid rgb(24, 151, 24);
     border-radius: 20px;
 }
-/* .card:hover{
-    transform: rotateY(90deg);
-} */
+
 
 .back{
     background: none;
@@ -49,11 +47,6 @@
   opacity: .5;
 }
 
-.sliderContainer{
-    /* background-color: green;
-    padding: 5px;
-    margin-bottom: 20px */
-}
 .moreWork{
     color: white;
     >span{
