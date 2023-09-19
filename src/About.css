@@ -7,17 +7,17 @@
 }
 .about{
     background-color:rgb(9, 13, 33);
-    height: auto;
+    /* height: auto; */
     color: rgb(252, 252, 252);
     /* border-top: 2px solid red; */
     padding-top: 100px;
     display: flex;
-    width: 100%;
+    width: 97%;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 35px;
     padding-right: 80px;
-    height: 100vh;
+    /* height: 100vh; */
     /* align-items: center;     */
   }
   .marque{
