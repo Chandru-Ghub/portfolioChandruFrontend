@@ -15,7 +15,7 @@ const About = () => {
    
     <div className='about' id='about'>
            <div className='cover'>
-              <h3 className='abouth3' data-aos = 'fade-left'    data-aos-duration="1500" >About</h3>
+              <h3 className='abouth3' data-aos = 'fade-right'    data-aos-duration="1500" >About</h3>
                   <h2 className='aboutQuote'>The beautiful thing about learning is that no one can take it away from you!</h2>
                 As a entry level MERN stack developer have a good knowledge in the Frontend. Backend, DataBase
                     <p className='tec'>Technologies I worked</p>
@@ -105,7 +105,7 @@ const About = () => {
       
           </div>
                   
-    <p className='line1'></p>
+    {/* <p className='line1'></p> */}
     </div>
         
    

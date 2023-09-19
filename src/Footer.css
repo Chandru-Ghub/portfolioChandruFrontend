@@ -130,3 +130,17 @@
         padding-right: 60px;
     }
   }
+
+  @media (max-width:350px){
+ 
+    .imprint{
+        font-size: 12px;
+        margin-right: 0;
+    }
+    .socialMedia{
+        /* background-color: green; */
+    }
+    .iconslogo{
+        padding: 0;
+    }
+}
