@@ -52,7 +52,7 @@ const Contact = () => {
 
 
                     <div className='infocontact'>
-                        <h3 className='cname' data-aos="fade-right" data-aos-duration="1500" >Contact</h3>
+                        <h3 className='cname' data-aos="fade-left" data-aos-duration="1500" >Contact</h3>
                         <p className='msg'>I am interested in freelance opportunities. However, if you have other request or question, don't hesitate to contact me using below form either.</p>
                         <p className='mailicon'>
                         <span class="material-symbols-outlined">
