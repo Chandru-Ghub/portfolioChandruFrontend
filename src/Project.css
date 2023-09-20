@@ -1,15 +1,16 @@
 .project{
     /* height: 100vh; */
+
     background-color:rgb(9, 13, 33);
     padding-left: 70px;
 }
 .myworks{
     color: rgb(53, 241, 53);
-    margin-top: 100px;
     text-align: center;
     font-size: 25px;
     width: 150px;
     margin: auto;
+    padding-top: 100px;
 }
 .pro15{
     color: rgb(74, 78, 74);
