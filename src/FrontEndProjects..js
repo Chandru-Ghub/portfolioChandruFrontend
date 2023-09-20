@@ -41,13 +41,13 @@ hiking
                 <p className='view'>
                 <a href="https://startling-longma-20942a.netlify.app/" target='blank'>ViewProject</a></p>
             </div>
-            <div className='imgcontainer' data-aos="fade-up" data-aos-duration="1000">
+            <div className='imgcontainer' data-aos="fade-right"  data-aos-duration="1000">
             <img className='thumbnail' src={emoji} alt="" />
                 <p className='view'>
                 <a href="https://chandru-ghub.github.io/Front-end-TASK-D20-/API%20-2%20Emojhub/index.html#bottom" target='blank'>ViewProject</a></p>
             </div>
             
-            <div className='imgcontainer' data-aos="fade-left" data-aos-duration="1000">
+            <div className='imgcontainer' data-aos="fade-right"  data-aos-duration="1000">
             <img className='thumbnail' src={meal} alt="" />
                 <p className='view'>
                 <a href="https://chandru-ghub.github.io/Front-end-TASK-D20-/API%20-%201%20The%20meal%20DB/index.html" target='blank'>ViewProject</a></p>
@@ -62,7 +62,7 @@ hiking
                 <p className='view'>
                 <a href="https://comforting-horse-824c25.netlify.app/All" target='blank'>ViewProject</a></p>
             </div>
-            <div className='imgcontainer' data-aos="fade-left" data-aos-duration="1000">
+            <div className='imgcontainer' data-aos="fade-right"  data-aos-duration="1000">
             <img className='thumbnail' src={engine} alt="" />
                 <p className='view'>
                 <a href="https://startling-longma-20942a.netlify.app/" target='blank'>ViewProject</a></p>

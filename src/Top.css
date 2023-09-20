@@ -123,3 +123,50 @@
      color: rgb(74, 78, 74);
      margin-left: -20px;
 }
+@media (max-width:465px){
+    .thumbnail{
+        width: 360px;
+        position: relative;
+        display: block;
+       
+    }
+    .way{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .view{
+       
+        width: 90px;
+        height: 90px;
+        >a{
+            color: rgb(27, 26, 26);
+            font-size: 13px;
+        }
+    }
+}
+@media (max-width:380px){
+    .thumbnail{
+        width: 280px;
+        position: relative;
+        display: block;
+       
+    }
+    .way{
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+  
+}
+@media (max-width:300px){
+    .thumbnail{
+        width: 250px;
+        position: relative;
+        display: block;
+       
+    }
+    .way{
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+  
+}
