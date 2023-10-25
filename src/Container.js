@@ -8,7 +8,7 @@ const Container = () => {
   return (
     <div>
 
-              {/* <Transition/> */}
+              <Transition/>
               <Home/>
               <About/>
               <Project/>

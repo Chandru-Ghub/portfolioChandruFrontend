@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Typewriter from 'typewriter-effect';
 // import {useTypewriter,Cursor} from 'react-simple-typewriter'
+import pic from './alenWalker.jpg'
 const Home = () => {
 
     const [state] = useState({
@@ -13,7 +14,7 @@ const Home = () => {
    
 
   return (
-    <div >
+    <div className='homepage' >
     <div  data-aos="fade-right" data-aos-duration="1000" id='home' className='home' >
 
         <div>
@@ -29,8 +30,8 @@ const Home = () => {
                                 delay:40,
                                 strings:[
                                     " a FullStack Developer",
-                                    " a youtuber",
-                                    " Chandru"]
+                                    " a Traveller",
+                                    " a Designer"]
 
                             }}
                             />
@@ -40,7 +41,9 @@ const Home = () => {
            </div>
           
            <h2 className='build'>I build things for the web</h2>
-            <p className='summary'>Hardworking and Passionate job seeker with strong organizational skills eager to secure entry-level position. Ready to help team achieve company goals.</p>
+            <p className='summary'>Passionate job seeker from salem, Tamil Nadu with strong organizational skills eager to secure entry-level position. Ready to help team achieve company goals.
+        
+           </p>
             </div>
             <div className='cv'>
                 <button className='btncv'>
@@ -53,8 +56,11 @@ const Home = () => {
 
             </div>
     </div>
-    
-    <p className='line1'></p>
+    <div className="awk">
+       {/* <img src={pic} alt="" /> */}
+
+    </div>
+    {/* <p className='line1'></p> */}
     </div>
   )
 }

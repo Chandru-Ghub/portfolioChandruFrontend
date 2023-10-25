@@ -23,8 +23,22 @@ body{
   padding: 10px 10px;
   position: sticky;
   top: 0;
+  /* left: 0;
+  right: 0; */
+  /* background-color: rgba(255, 255, 255, 0.167); */
   background-color:rgb(9, 13, 33);
   z-index: 10;
+}
+.bdr{
+  
+  border: 2px solid rgb(255, 255, 255);
+  padding: 5px 10px;
+  color: white;
+  transition: .8s;
+}
+.bdr:hover{
+  background-color: white;
+  color: black;
 }
 
 
@@ -125,8 +139,27 @@ h5{
   color: aliceblue;
   font-size: 30px;
 }
+
+.homepage{
+  /* background-color: red; */
+  display: flex;
+  >.awk{
+    /* background-color: blue; */
+    /* background:linear-gradient(rgba(0, 0, 0, 0.681),rgba(0, 0, 0, 0.681)),url('./alenWalker.jpg'); */
+    /* >img{
+      width: 100%;
+    } */
+
+  }
+}
 .home{
   background-color:rgb(9, 13, 33);
+  /* background:linear-gradient(rgba(14, 13, 26, 0.585),rgba(10, 9, 34, 0.656)),url('./bg1.jpg'); */
+  /* background:linear-gradient(rgba(14, 13, 26, 0.245),rgba(10, 9, 34, 0.453)),url('./alenWalker.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* background-attachment: fixed; */
+  background-position: 20% 40%;
   padding-left: 80px;
   display: flex;
   flex-direction: column;
@@ -149,8 +182,10 @@ h5{
 
 /* summary */
 .summary{
-  color: white;
+  color: rgba(255, 255, 255, 0.722);
   font-size: 20px;
+  /* background-color: red; */
+  width: 80%;
 }
 
 /* button */

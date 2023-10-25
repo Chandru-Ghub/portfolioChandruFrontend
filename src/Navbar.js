@@ -22,22 +22,28 @@ const Navbar = () => {
                     style={{
                         scaleX:scrollYProgress,
                         position:'fixed',
-                        top:67,
+                        top:60,
                         right:0,
                         left:0,
-                        height:2,
+                        height:.5,
                         background:' rgb(53, 241, 53)',
                         transformOrigin:'0%'
 
                     }}
                 ></motion.div>
-                
+
+
+                    {/* <div className="hitme">
+                        Hitme up
+                    </div> */}
                 <div className='logo'>
                     <h4 className='hooklogo'>
                         {/* <span className='chan'>{fr} </span>ch<span className='chan'>an</span>dru <span className='chan'>{bk}</span> */}
-                        <span class="material-symbols-outlined fh">
+                        CHAN<span className='chan'>DRU</span> 
+                        {/* <span class="material-symbols-outlined fh">
                         webhook
-                        </span>
+                        </span> */}
+                      
                         </h4>
                 </div>
                 <div className='onnu'>
@@ -57,7 +63,7 @@ const Navbar = () => {
                             </Link>
                             
                             <Link 
-                            onClick={()=>setToggle(!toggle)} to='/#contact' className='navs' smooth>
+                            onClick={()=>setToggle(!toggle)} to='/#contact' className='bdr' smooth>
                                 Contact
                             </Link>
 
