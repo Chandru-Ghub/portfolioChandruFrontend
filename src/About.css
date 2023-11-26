@@ -13,7 +13,6 @@
     padding-top: 100px;
     padding-bottom: 50px;
     display: flex;
-    width: 97%;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 35px;
@@ -22,10 +21,10 @@
     /* align-items: center;     */
   }
   .marque{
-    border: 2px solid rgb(53, 241, 53);
-    color: rgb(53, 241, 53);
+    /* border: 2px solid rgb(53, 241, 53); */
+    color: rgba(255, 255, 255, 0.558);
     /* s */
-    background-color:  rgb(53, 241, 53);
+    /* background-color:  rgb(53, 241, 53); */
     display: flex;
     column-gap: 20px;
     width: 300px;
@@ -252,14 +251,14 @@
 }
 .db{
     font-size: 120px;
-    color:  rgb(53, 241, 53);
+    color: rgba(53, 241, 53, 0.199);
     animation: x-axis-animation 4s ease-in-out 0s infinite alternate;
 }
 .turn{
     font-size: 70px;
     /* background-color: pink; */
     margin-bottom: -100px;
-    color:  rgb(53, 241, 53);
+    color:  rgba(53, 241, 53, 0.199)
     
 }
 
@@ -269,7 +268,7 @@
 }
 
 .webicons:hover .eco{
-    color:  rgb(53, 241, 53);
+    color:  rgba(53, 241, 53, 0.199);
 }
 .rtr{
     background-color: pink;
@@ -277,14 +276,14 @@
 .fend{
     font-size: 120px;
     text-align: center;
-    color:  rgb(53, 241, 53);
+    color:  rgba(53, 241, 53, 0.199);
     width: 100%;
     animation: x-axis-animation 3s ease-in-out 0s infinite alternate;
 }
 
 .bend{
     font-size: 120px;
-    color:  rgb(53, 241, 53);
+    color:  rgba(53, 241, 53, 0.199);
     animation: x-axis-animation 2s ease-in-out 0s infinite alternate;
 }
 @keyframes turn {

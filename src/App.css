@@ -154,11 +154,6 @@ h5{
 }
 .home{
   background-color:rgb(9, 13, 33);
-  /* background:linear-gradient(rgba(14, 13, 26, 0.585),rgba(10, 9, 34, 0.656)),url('./bg1.jpg'); */
-  /* background:linear-gradient(rgba(14, 13, 26, 0.245),rgba(10, 9, 34, 0.453)),url('./alenWalker.jpg');
-  background-repeat: no-repeat;
-  background-size: cover; */
-  /* background-attachment: fixed; */
   background-position: 20% 40%;
   padding-left: 80px;
   display: flex;
@@ -168,11 +163,48 @@ h5{
   /* height: 100vh; */
   padding-top: 150px;
   padding-bottom: 80px;
-  /* position: sticky;
-  top: 0px; */
-  /* background-color:rgb(9, 13, 33); */
-  
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
 
+}
+
+.home::before{
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: rgba(9, 38, 59, 0.278);
+  right: 15%;
+  bottom: 15%;
+  border-radius: 50%;
+  box-shadow: 2px 5px 10px  rgba(255, 255, 255, 0.212);
+  animation: plan 10s infinite linear;
+}
+
+@keyframes plan {
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+      transform:  rotate(360deg);
+  }
+}
+.home::after{
+  content: '(';
+  color: rgb(115, 115, 115);
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  box-shadow: 2px 5px 10px  rgba(27, 234, 30, 0.308);
+  background-color: rgba(0, 255, 26, 0.038);
+  right: 4%;
+  bottom: 40%;
+  border-radius: 50%;
+  /* z-index: 0; */
 }
 .build{
 

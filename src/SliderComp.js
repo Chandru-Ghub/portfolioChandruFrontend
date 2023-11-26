@@ -4,7 +4,10 @@ import "slick-carousel/slick/slick-theme.css";
 import './SliderCSS.css'
 import './Project.css'
 import Slider from 'react-slick'
-import bulkMail from './thumbnail/bulkmail2.png'
+import bulkMail from './thumbnail/e1.png'
+import shopy from './thumbnail/s8.png'
+import getfit from './thumbnail/g1.png'
+
 const SliderComp = () => {
 
 
@@ -62,45 +65,90 @@ const SliderComp = () => {
     ]
   };
   return (
+
+    <div className="projectContainer">
+      <div className="promern">
+        <p className="projectdesc" >Following projects showcases my skills and experience through some examples of my work.Each projects reflects my ability to solve problems,work with different technologies.</p>
+        <div>Technologies behind the projects <span className="mern">MERN</span></div>
+        <ul>
+          <li className="cp3"># Mongo DB</li>
+          <li className="cp4"># Express JS</li>
+          <li className="cp1"># React JS</li>
+          <li className="cp2"># Node JS</li>
+          <li className="cp5"># Redux</li>
+        </ul>
+        </div>
     <div className="containerdd" >
      
      <div className="cardcontainer">
-        <Slider {...settings}>
-          <div className="card wrap">
-                
-              <span class="material-symbols-outlined eye">
-                search
+        <Slider {...settings} className="slider">
+          <div className="cardslider wrap">
+               <a target="_blank" href="https://illustrious-kangaroo-346c65.netlify.app/" >
+                <span class="material-symbols-outlined eye">
+                language
                 </span>
+                </a>
+               <a href="https://illustrious-kangaroo-346c65.netlify.app/" >
+                <span class="material-symbols-outlined code1">
+                code
+                </span>
+                </a>
+             
+              <div className="proTitle">
+              <h1>SHOPY NOW</h1>
+              <p>A complete Ecommerce application </p>
+              </div>
+              <img src={shopy} alt="" />
+          </div>
+          <div className="cardslider wrap">
+                <a target="_blank" href="https://illustrious-kangaroo-346c65.netlify.app/" >
+                      <span class="material-symbols-outlined eye">
+                      language
+                      </span>
+                      </a>
+                    <a href="https://illustrious-kangaroo-346c65.netlify.app/" >
+                      <span class="material-symbols-outlined code1">
+                      code
+                      </span>
+                  </a>
+              <div className="proTitle">
+              <h1>  GET FIT</h1>
+              <p>A Fitness Web application with admin panel</p>
+              </div>
+                <img src={getfit} alt="" />
+          </div>
+          <div className="cardslider wrap">
+
+                    <a target="_blank" href="https://startling-dolphin-d7e7f5.netlify.app/" >
+                    <span class="material-symbols-outlined eye">
+                    language
+                    </span>
+                    </a>
+                  <a href="https://startling-dolphin-d7e7f5.netlify.app/" >
+                    <span class="material-symbols-outlined code1">
+                    code
+                    </span>
+                    </a>
+
+              <div className="proTitle">
+              <h1>  BULK EMAIL application</h1>
+              <p>Let's send the mail bulk at once</p>
+              </div>
+              <img src={bulkMail} alt="" />
+          </div>
+          <div className="cardslider wrap">
               <div className="proTitle">
               <h1>  BULK EMAIL application</h1>
               <p>Let's send the mail bulk at once</p>
               </div>
           </div>
-          <div className="card wrap">
+          <div className="cardslider wrap">
               <div className="proTitle">
               <h1>  BULK EMAIL application</h1>
               <p>Let's send the mail bulk at once</p>
               </div>
           </div>
-          <div className="card wrap">
-              <div className="proTitle">
-              <h1>  BULK EMAIL application</h1>
-              <p>Let's send the mail bulk at once</p>
-              </div>
-          </div>
-          <div className="card wrap">
-              <div className="proTitle">
-              <h1>  BULK EMAIL application</h1>
-              <p>Let's send the mail bulk at once</p>
-              </div>
-          </div>
-          <div className="card wrap">
-              <div className="proTitle">
-              <h1>  BULK EMAIL application</h1>
-              <p>Let's send the mail bulk at once</p>
-              </div>
-          </div>
-          <div className="card wrap">
+          <div className="cardslider wrap">
               <div className="proTitle">
               <h1>  BULK EMAIL application</h1>
               <p>Let's send the mail bulk at once</p>
@@ -111,6 +159,7 @@ const SliderComp = () => {
           
         </Slider>
       </div>
+    </div>
     </div>
   );
 }

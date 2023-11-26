@@ -15,7 +15,8 @@ const Home = () => {
 
   return (
     <div className='homepage' >
-    <div  data-aos="fade-right" data-aos-duration="1000" id='home' className='home' >
+    <div id='home' className='home' >
+    {/* <div  data-aos="fade-right" data-aos-duration="1000" id='home' className='home' > */}
 
         <div>
              <p className='pp'>I am Chandru</p>

@@ -8,6 +8,7 @@ import burger from './thumbnail/burger.png'
 import meal from './thumbnail/mealdb.png'
 import guvi from './thumbnail/guvi.png'
 import engine from './thumbnail/imageSearch.png'
+import primetube from './thumbnail/pmtube.png'
 import './Top.css'
 const FrontEndProjects = () => {
     const { pathname } = useLocation();
@@ -41,6 +42,13 @@ hiking
                 <p className='view'>
                 <a href="https://startling-longma-20942a.netlify.app/" target='blank'>ViewProject</a></p>
             </div>
+
+            <div className='imgcontainer' data-aos="fade-right" data-aos-duration="1000">
+            <img className='thumbnail' src={primetube} alt="" />
+                <p className='view'>
+                <a href="https://rainbow-malabi-3fe1d4.netlify.app/" target='blank'>ViewProject</a></p>
+            </div>
+
             <div className='imgcontainer' data-aos="fade-right"  data-aos-duration="1000">
             <img className='thumbnail' src={emoji} alt="" />
                 <p className='view'>

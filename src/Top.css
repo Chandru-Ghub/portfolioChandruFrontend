@@ -21,12 +21,39 @@
 .qts{
     /* background-color: rgba(86, 131, 228, 0.236); */
     padding-left: 40px;
-    margin-top: -50px;
+    margin-top: 150px;
 
+}
+
+.techbehind{
+    background-color: rgba(255, 255, 255, 0.027);
+    position: absolute;
+    color: rgb(194, 192, 192);
+    bottom: 10px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    font-size: 13px;
+
+    >p{
+        >span{
+            color: rgb(15, 241, 15);
+        }
+    }
+    >img{
+        width: 90px;
+        /* background-color: red; */
+        margin-top: 10px;
+    
+    }
 }
 .trs{
     color: rgb(255, 255, 255);
-    height: 100vh;
+    height: 92vh;
+    position: relative;
     /* padding: 30px; */
     /* background-color: rgb(10, 15, 35); */
     background-color: green;
@@ -41,7 +68,7 @@
     left: 0; */
     /* z-index: -50; */
     display: flex;
-    align-items: center;
+  
     
 
     /* >.imgctn{

@@ -24,6 +24,7 @@ const Project = () => {
                   </div>
       </div>  
         <p className='line1'></p>
+    
     </div>
   )
 }
