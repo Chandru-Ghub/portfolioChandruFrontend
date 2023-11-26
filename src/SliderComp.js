@@ -101,12 +101,12 @@ const SliderComp = () => {
               <img src={shopy} alt="" />
           </div>
           <div className="cardslider wrap">
-                <a target="_blank" href="https://illustrious-kangaroo-346c65.netlify.app/" >
+                <a target="_blank" href="https://master--phenomenal-syrniki-d050f2.netlify.app/" >
                       <span class="material-symbols-outlined eye">
                       language
                       </span>
                       </a>
-                    <a href="https://illustrious-kangaroo-346c65.netlify.app/" >
+                    <a href="https://master--phenomenal-syrniki-d050f2.netlify.app/" >
                       <span class="material-symbols-outlined code1">
                       code
                       </span>
