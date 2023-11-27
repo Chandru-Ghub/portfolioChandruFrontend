@@ -31,6 +31,9 @@
       }
     }
     >ul{
+      >li{
+        font-size: 12px;
+      }
       >.cp1{
         color: rgb(0, 128, 255);
       }
@@ -307,7 +310,7 @@
     >ul{
       margin-top: 10px;
      >li{
-      font-size: 14px;
+      font-size: 10px !important;
      }
     }
 
