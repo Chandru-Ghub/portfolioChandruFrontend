@@ -22,7 +22,7 @@ const Navbar = () => {
                     style={{
                         scaleX:scrollYProgress,
                         position:'fixed',
-                        top:60,
+                        top:54,
                         right:0,
                         left:0,
                         height:.5,
