@@ -83,16 +83,6 @@ const Navbar = () => {
           
            
             <div></div>
-            {/* <Home/>
-              <About/>
-              <Project/>
-              <Contact/>
-            </div>
-            <Routes>
-            <Route path='/dig' Component={FrontEndProjects}/>
-          </Routes>
-         
-              <Footer/> */}
               <Routes>
                 <Route path='/' Component={Container}/>
                 <Route path='/dig' Component={FrontEndProjects}/>

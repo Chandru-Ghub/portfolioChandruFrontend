@@ -321,6 +321,13 @@
         /* background-color: red; */
         padding-left: 12px;
     }
+    .aboutQuote{
+       
+        font-size: 18px;
+    }
+    .aboutme{
+        font-size: 15px;
+    }
 }
 
   @media (max-width:400px){
@@ -328,17 +335,16 @@
         width: 250px;
     }
     .about{
-        /* background-color: white; */
         padding-left: 0;
     }
     .fend{
-        font-size: 90px;
+        font-size: 80px;
     }
     .bend{
-        font-size: 90px;
+        font-size: 80px;
     }
     .db{
-        font-size: 90px;
+        font-size: 80px;
     }
     .cover{
         /* background-color: red; */

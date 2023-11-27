@@ -69,7 +69,7 @@ const SliderComp = () => {
     <div className="projectContainer">
       <div className="promern">
         <p className="projectdesc" >Following projects showcases my skills and experience through some examples of my work.Each projects reflects my ability to solve problems,work with different technologies.</p>
-        <div>Technologies behind the projects <span className="mern">MERN</span></div>
+        <div className="clst">Technologies behind the projects <span>MERN</span></div>
         <ul>
           <li className="cp3"># Mongo DB</li>
           <li className="cp4"># Express JS</li>

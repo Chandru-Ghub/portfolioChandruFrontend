@@ -2,6 +2,7 @@
 import './App.css';
 import Navbar from './Navbar';
 import { BrowserRouter} from 'react-router-dom';
+import Transition from './Transition';
 
 function App() {
   return (
@@ -12,9 +13,7 @@ function App() {
            
    
           <BrowserRouter>
-          
               <Navbar/>
-           
           </BrowserRouter>
        
     </div>

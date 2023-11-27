@@ -254,6 +254,26 @@ margin-top: 20px;
   column-gap: 20px;
 }
 
+
+@media (max-width:750px){
+
+  .summary{
+    font-size: 18px;
+  }
+  .home{
+    padding-left: 40px;
+  }
+  .build{
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  .pp{
+    font-size: 50px;
+  }
+  .type{
+    font-size: 20px;
+  }
+}
 @media (max-width:700px){
 
   .home{
@@ -263,6 +283,12 @@ margin-top: 20px;
   .burs{
     display: block;
  
+  }
+  .summary{
+    font-size: 16px;
+  }
+  .build{
+    font-size: 30px;
   }
   .lists{
     position: absolute;
@@ -284,12 +310,12 @@ margin-top: 20px;
     padding-top: 50px;
     display: flex;
     left: 0px;
-    top: 69.5px;
+    top: 54.5px;
     gap: 40px;
     height: 100vh;
     width: 70%;
     flex-direction: column;
-    background-color: rgb(59, 193, 59);
+    background-color: rgb(58, 152, 58);
     align-items: center;
     transition: .7s;
     
@@ -306,26 +332,43 @@ margin-top: 20px;
   }
  
 }
-@media (max-width:750px){
 
-  .summary{
-    font-size: 19px;
-  }
+@media (max-width:440px){
+
   .home{
-    padding-left: 40px;
+    padding-top: 120px;
+  }
+  .burs{
+    display: block;
+    
+  }
+  .summary{
+    font-size: 15px;
+    margin-bottom: 10px;
   }
   .build{
-    font-size: 50px;
+    font-size: 28px !important;
+  
   }
   .pp{
-    font-size: 50px;
+    font-size: 35px !important;
   }
   .type{
-    font-size: 25px;
+    font-size: 20px;
   }
+
+  .cv{
+    width: 100%;
+    margin-top: 20px;
+      >button{
+        background-color: rgb(51, 189, 51);
+        padding: 8px;
+        font-size: 10px;
+        
+      }
+    }
+
 }
-
-
 @media (max-width:350px){
 
   .summary{

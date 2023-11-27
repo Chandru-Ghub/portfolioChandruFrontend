@@ -1,6 +1,7 @@
 import React from 'react'
 import img1 from './bg1.jpg'
 import mern from './m1.png'
+import {HashLink as Link} from 'react-router-hash-link'
 const Transition = () => {
   return (
     <div className='trs' >
@@ -10,10 +11,11 @@ const Transition = () => {
        <p className='quote'>
             Web Development and Design in unique way
         </p>
-        <button className="diginto">
-            {/* <img src={img1} alt="" /> */}
-            Dig into My universe
-        </button>
+       
+        
+        <Link style={{color:'inherit'}} to={'/#project'} smooth>
+        <button className="diginto">Dig into My universe</button></Link>
+
        </div>
      
          <div className="techbehind">

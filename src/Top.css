@@ -1,15 +1,6 @@
 .quote{
-    /* font-size: 90px;
-    font-family:  Verdana, Geneva, Tahoma, sans-serif;
-    width: 50%; */
-    /* background: red; */
-    /* transform: rotate3d(0, 1, 0, 80deg); */
-    /* background-color: rgba(12, 242, 8, 0.749); */
-    /* background-color: rgb(10, 15, 35); */
     width: 60%;
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
     font-size: 55px;
     font-weight: 1000;
     flex-wrap: wrap;
@@ -62,40 +53,25 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: 20% 40%;
-    /* position: sticky;
-    top: 70px;
-    right: 0;
-    left: 0; */
-    /* z-index: -50; */
+
     display: flex;
   
-    
 
-    /* >.imgctn{
-            width: 50%;
-            border: 2px solid red;
-        >img{
-            width:100% ;
-        }
-    } */
-
-    >div{
-        >.diginto{
-            /* background: rgb(26, 248, 26); */
-            background-color: transparent;
-            display: flex;
-            border: 2px solid rgb(255, 255, 255);
-            padding: 12px 10px;
-            color: rgb(255, 255, 255);
-        }
-        /* >.diginto:hover{
-            background: rgb(26, 248, 26);
-            border: 2px solid rgb(0, 0, 0);
-            color: rgb(0, 0, 0);
-        } */
-    }
 }
-
+.diginto{
+    /* background: rgb(26, 248, 26); */
+    background-color: transparent;
+    display: flex;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 12px 10px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+/* .diginto:hover{
+    background: rgb(26, 248, 26);
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+} */
 .projects{
     color: white;
     background-color:rgb(9, 13, 33);
@@ -199,7 +175,18 @@
      color: rgb(74, 78, 74);
      margin-left: -20px;
 }
+@media (max-width:700px){
+
+     .quote{
+        font-size: 45px;
+        width: 70%;
+    }
+
+}
 @media (max-width:465px){
+    .qts{
+        padding-left: 20px;
+    }
     .thumbnail{
         width: 360px;
         position: relative;
@@ -219,6 +206,24 @@
             font-size: 13px;
         }
     }
+    .quote{
+        font-size: 40px;
+        width: 70%;
+    }
+    .diginto{
+        background-color: transparent;
+        display: flex;
+        border: 2px solid rgb(255, 255, 255);
+        padding: 8px;
+        font-size: 10px;
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+
+    
+    
+
 }
 @media (max-width:380px){
     .thumbnail{
@@ -230,6 +235,36 @@
     .way{
         font-size: 17px;
         margin-bottom: 20px;
+    }
+    .quote{
+        font-size: 30px;
+        width: 70%;
+    }
+
+
+    .techbehind{
+        background-color: rgba(255, 255, 255, 0.027);
+        position: absolute;
+        color: rgb(194, 192, 192);
+        bottom: 10px;
+        right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 20px;
+        flex-wrap: wrap;
+        font-size: 10px;
+    
+        >p{
+            >span{
+                color: rgb(15, 241, 15);
+            }
+        }
+        >img{
+            width: 60px;
+            margin-top: 5px;
+        
+        }
     }
   
 }
@@ -243,6 +278,10 @@
     .way{
         font-size: 17px;
         margin-bottom: 20px;
+    }
+    .quote{
+        font-size: 30px;
+        width: 70%;
     }
   
 }

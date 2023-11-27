@@ -33,12 +33,12 @@ const Footer = () => {
         <p className='copy'> &copy; {year} All Rights Reserved</p>
         <ul className='iconslogo'>
             <li>
-                <a href="">
+                <a href="https://www.linkedin.com/in/chandrum7/?profileId=ACoAAEhK1z8BD_Z00kPEIPgwVfw3nwsS0sWgYxE">
                     <img className='in' src={linkedin} alt="linkedin" />
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="https://github.com/Chandru-Ghub?tab=repositories">
                     <img className='imgicon' src={github} alt="linkedin" />
                 </a>
             </li>

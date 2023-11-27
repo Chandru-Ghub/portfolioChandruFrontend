@@ -17,7 +17,7 @@ const About = () => {
            <div className='cover'>
               <h3 className='abouth3' data-aos = 'fade-left'    data-aos-duration="1500" >About</h3>
                   <h2 className='aboutQuote'>The beautiful thing about learning is that no one can take it away from you!</h2>
-                As a entry level MERN stack developer have a good knowledge in the Frontend. Backend, DataBase
+                  <p className='aboutme'>As a entry level MERN stack developer have a good knowledge in the Frontend, Backend, DataBase</p>
                     <p className='tec'>Technologies I worked</p>
                       <marquee className='marque' behavior="scroll" scrolldelay ='0' direction="side">
                             <div className='techs'>
