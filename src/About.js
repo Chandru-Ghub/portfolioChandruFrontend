@@ -39,24 +39,15 @@ const About = () => {
 
                       </marquee>
                       <p className='certi'>  MERN Stack Certifications</p>
-                      <div className='cv'>
-                <button className='btncv'>
-                    <a style={{color:'black'}} >
-                   Certifications
-                    </a>
                     
-                </button>
-                
-
-            </div>
+              
+                    <a className='cv' target='_blank' href='https://www.guvi.in/verify-certificate?id=65dR8910207b5w27a6' style={{color:'black'}} >
+                    <button className='btncv'> Certifications   </button>
+                    </a>
             </div>
 
 
             <div className="cubeim" >
-            {/* <div className="cubeim" data-aos = 'fade-right'    data-aos-duration="1500" > */}
-              {/* <p className='role'  >
-                  <Ani/>
-              </p> */}
               <div className="webicons">
                       <div className="threeicon">
                               <div className='inicon'>

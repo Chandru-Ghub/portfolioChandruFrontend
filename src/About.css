@@ -207,7 +207,7 @@
 
 .webicons{
     /* background-color: rgb(17, 26, 201); */
-    padding-right: 40px;
+    padding:0 40px;
     color: rgb(53, 241, 53);
     opacity: .8;
     /* display: flex; */
@@ -229,7 +229,7 @@
 }
 
 .certi{
-    margin-top: 20px;
+    margin: 20px 0;
     color: rgb(74, 78, 74);
 }
 .inicon{
@@ -239,6 +239,7 @@
     align-items: center;
     justify-content: center;
     color: rgb(111, 114, 110);
+   
 }
 .sett{
     position: absolute;

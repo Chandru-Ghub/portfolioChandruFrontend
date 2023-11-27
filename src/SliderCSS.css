@@ -56,12 +56,10 @@
 
 .containerdd{
     /* background-color: rgb(18, 21, 223); */
-    /* background-color: rgba(226, 222, 222, 0.07); */
     width:65%;
     display: flex;
     justify-content: end;
-    /* height: 100vh; */
-    /* margin-bottom: 80px; */
+
   }
   .con{
     background-color: rgb(227, 221, 221);
@@ -132,9 +130,7 @@
       width:100%;
       height: 105%;
       object-fit: cover;
-     
     
-      /* transform: translate(-50%,-50%); */
     }
   
 }
@@ -161,9 +157,18 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color:rgba(2, 6, 24, 0.818);
-    /* content: ''; */
+    background-color:rgba(2, 6, 24, 0.877);
     transform: scale(0);
+  }
+  .wrap::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(2, 6, 24, 0.534);
+    transform: scale(1);
   }
 
   /* .proTitle{

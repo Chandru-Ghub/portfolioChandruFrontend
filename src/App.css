@@ -223,12 +223,11 @@ h5{
 /* button */
 .cv{
 width: 100%;
-/* background-color: red; */
 margin-top: 20px;
   >button{
     background-color: rgb(51, 189, 51);
     padding: 15px;
-    /* border: none; */
+    cursor: pointer;
     
   }
 }

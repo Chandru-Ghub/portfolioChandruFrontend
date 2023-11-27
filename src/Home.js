@@ -46,16 +46,11 @@ const Home = () => {
         
            </p>
             </div>
-            <div className='cv'>
-                <button className='btncv'>
-                    <a style={{color:'black'}} href="Resume chandru.pdf" download = 'ChandruResume.pdf'>
-                    Download CV
+           
+                    <a target='_blank' className='cv'style={{color:'black'}} href="https://drive.google.com/file/d/14kn0ndXPKAVhUKKVGG8m4cQ1cC1a3GrD/view?usp=drivesdk">
+                    <button className='btncv'>Download CV </button>
                     </a>
-                    
-                </button>
-                
-
-            </div>
+            
     </div>
     <div className="awk">
        {/* <img src={pic} alt="" /> */}
