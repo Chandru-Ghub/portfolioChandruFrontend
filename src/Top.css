@@ -43,11 +43,8 @@
 }
 .trs{
     color: rgb(255, 255, 255);
-    height: 92vh;
+    max-height: 92vh;
     position: relative;
-    /* padding: 30px; */
-    /* background-color: rgb(10, 15, 35); */
-    background-color: green;
     background:linear-gradient(rgba(14, 13, 26, 0.647),rgba(10, 9, 34, 0.482)),url('./alenWalker.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,6 +63,7 @@
     padding: 12px 10px;
     color: rgb(255, 255, 255);
     cursor: pointer;
+    margin-bottom: 250px;
 }
 /* .diginto:hover{
     background: rgb(26, 248, 26);
