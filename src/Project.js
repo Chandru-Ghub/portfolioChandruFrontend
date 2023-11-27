@@ -10,7 +10,7 @@ const Project = () => {
 
     <h3 className='myworks' data-aos="fade-right" data-aos-duration="1500" >My works</h3>
     <div className='sliderContainer'>
-            {/* <SliderComp/> */}
+            <SliderComp/>
     </div> 
       <div className="morepro">
               <h4 className='pro15'>15+ projects</h4>

@@ -57,54 +57,8 @@ const About = () => {
               {/* <p className='role'  >
                   <Ani/>
               </p> */}
-              <div className="webicons">
-                      <div className="threeicon">
-                              <div className='inicon'>
-                                  <span class="material-symbols-outlined db ">
-                                  database
-                                  </span>
-                                  <span class="material-symbols-outlined eco ">
-                                  eco
-                                  </span>
-                                  DataBase
-                              </div>
-
-                              <div className='inicon'>
-                                  <span class="material-symbols-outlined turn">
-                                  cached
-                                  </span>
-                              </div>
-
-                              <div className='inicon'>
-                                  <span class="material-symbols-outlined bend">
-                                  display_settings
-                                  </span>
-                                  <span class="material-symbols-outlined api">
-                                  api
-                                  </span>
-                                  Backend
-                                  
-                              </div>
-
-                                  <span class="material-symbols-outlined sett">
-                                  settings
-                                  </span>
-                          
-                                  
-                      </div>
-                      <div className='inicon'>
-                        <span class="material-symbols-outlined fend">
-                        laptop_chromebook
-                        </span>
-                        <span class="material-symbols-outlined fe">
-                          code
-                        </span>
-                        Frontend
-                      </div>
-                      
+              
               </div>
-      
-          </div>
                   
     <p className='line1'></p>
     </div>
