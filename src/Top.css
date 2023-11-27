@@ -43,9 +43,9 @@
 }
 .trs{
     color: rgb(255, 255, 255);
-    height: 90vh;
+    /* height: 90vh; */
     position: relative;
-    background:linear-gradient(rgba(14, 13, 26, 0.647),rgba(10, 9, 34, 0.482)),url('./alenWalker.jpg');
+    /* background:linear-gradient(rgba(14, 13, 26, 0.647),rgba(10, 9, 34, 0.482)),url('./alenWalker.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
