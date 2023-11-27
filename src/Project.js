@@ -8,7 +8,7 @@ const Project = () => {
   return (
     <div className='project'   id='project'>
 
-    <h3 className='myworks' data-aos="fade-right" data-aos-duration="1500" >My works</h3>
+    <h3 className='myworks'>My works</h3>
     <div className='sliderContainer'>
             <SliderComp/>
     </div> 
