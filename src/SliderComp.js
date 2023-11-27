@@ -66,7 +66,7 @@ const SliderComp = () => {
   };
   return (
     <div>
-              <p className="projectdesc" >Following projects showcases my skills and experience through some examples of my work.Each projects reflects my ability to solve problems,work with different technologies.</p>
+              <p className="projectdesc" >Following projects showcases my skills and experience through some examples of my work. Each projects reflects my ability to solve problems, work with different technologies.</p>
     <div className="projectContainer">
         
       <div className="promern">
