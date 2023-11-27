@@ -43,14 +43,13 @@
 }
 .trs{
     color: rgb(255, 255, 255);
-    max-height: 92vh;
+    height: 90vh;
     position: relative;
     background:linear-gradient(rgba(14, 13, 26, 0.647),rgba(10, 9, 34, 0.482)),url('./alenWalker.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: 20% 40%;
-
     display: flex;
   
 
