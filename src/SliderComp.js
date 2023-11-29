@@ -7,6 +7,7 @@ import Slider from 'react-slick'
 import bulkMail from './thumbnail/e1.png'
 import shopy from './thumbnail/s8.png'
 import getfit from './thumbnail/g1.png'
+import chat from './thumbnail/c3.png'
 
 const SliderComp = () => {
 
@@ -102,6 +103,46 @@ const SliderComp = () => {
               </div>
               <img src={shopy} alt="" />
           </div>
+
+            <div className="cardslider wrap">
+
+                    <a target="_blank" href="https://harmonious-gaufre-34e64e.netlify.app/" >
+                    <span class="material-symbols-outlined eye">
+                    language
+                    </span>
+                    </a>
+                    <a href="https://harmonious-gaufre-34e64e.netlify.app/" >
+                    <span class="material-symbols-outlined code1">
+                    code
+                    </span>
+                    </a>
+
+                    <div className="proTitle">
+                    <h1> FUN CHAT</h1>
+                    <p>Fun with private room chats with your friends</p>
+                    </div>
+                    <img src={chat} alt="" />
+            </div>
+        
+          <div className="cardslider wrap">
+
+                    <a target="_blank" href="https://startling-dolphin-d7e7f5.netlify.app/" >
+                    <span class="material-symbols-outlined eye">
+                    language
+                    </span>
+                    </a>
+                  <a href="https://startling-dolphin-d7e7f5.netlify.app/" >
+                    <span class="material-symbols-outlined code1">
+                    code
+                    </span>
+                    </a>
+
+              <div className="proTitle">
+              <h1>  BULK EMAIL TOOl</h1>
+              <p>Let's send the mail bulk at once</p>
+              </div>
+              <img src={bulkMail} alt="" />
+          </div>
           <div className="cardslider wrap">
                 <a target="_blank" href="https://master--phenomenal-syrniki-d050f2.netlify.app/" >
                       <span class="material-symbols-outlined eye">
@@ -119,45 +160,20 @@ const SliderComp = () => {
               </div>
                 <img src={getfit} alt="" />
           </div>
-          <div className="cardslider wrap">
 
-                    <a target="_blank" href="https://startling-dolphin-d7e7f5.netlify.app/" >
-                    <span class="material-symbols-outlined eye">
-                    language
-                    </span>
-                    </a>
-                  <a href="https://startling-dolphin-d7e7f5.netlify.app/" >
-                    <span class="material-symbols-outlined code1">
-                    code
-                    </span>
-                    </a>
 
-              <div className="proTitle">
-              <h1>  BULK EMAIL application</h1>
-              <p>Let's send the mail bulk at once</p>
-              </div>
-              <img src={bulkMail} alt="" />
-          </div>
           <div className="cardslider wrap">
               <div className="proTitle">
-              <h1>  BULK EMAIL application</h1>
-              <p>Let's send the mail bulk at once</p>
+              <h1>LOOK UP</h1>
+              <p>Explore more friends around the world</p>
               </div>
           </div>
           <div className="cardslider wrap">
               <div className="proTitle">
-              <h1>  BULK EMAIL application</h1>
-              <p>Let's send the mail bulk at once</p>
+              <h1>  RENTY CARS </h1>
+              <p>Easily rent the car from people nearby your location</p>
               </div>
           </div>
-          <div className="cardslider wrap">
-              <div className="proTitle">
-              <h1>  BULK EMAIL application</h1>
-              <p>Let's send the mail bulk at once</p>
-              </div>
-          </div>
-         
-     
           
         </Slider>
       </div>

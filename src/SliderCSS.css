@@ -142,7 +142,7 @@
 .cardslider:hover{
   >img{
     transform: scale(1.05);
-    transition: .5s;
+    /* transition: .5s; */
   }
   >.proTitle{
     transform: scale(1);
@@ -164,6 +164,7 @@
     bottom: 0;
     background-color:rgba(2, 6, 24, 0.877);
     transform: scale(0);
+    border-radius: 10px;
   }
   .wrap::before{
     position: absolute;
@@ -172,7 +173,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color:rgba(2, 6, 24, 0.534);
+    background-color:rgba(2, 6, 24, 0.488);
     transform: scale(1);
   }
 

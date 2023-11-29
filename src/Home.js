@@ -47,7 +47,7 @@ const Home = () => {
            </p>
             </div>
            
-                    <a target='_blank' className='cv'style={{color:'black'}} href="https://drive.google.com/file/d/14kn0ndXPKAVhUKKVGG8m4cQ1cC1a3GrD/view?usp=drivesdk">
+                    <a target='_blank' className='cv'style={{color:'black'}} href="https://drive.google.com/file/d/151RiANzV2XyTFg-brVVtW0gyw9iJOsVe/view?usp=drivesdk">
                     <button className='btncv'>Download CV </button>
                     </a>
             
