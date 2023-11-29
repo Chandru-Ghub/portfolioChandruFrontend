@@ -86,12 +86,12 @@ const SliderComp = () => {
      <div className="cardcontainer">
         <Slider {...settings} className="slider">
           <div className="cardslider wrap">
-               <a target="_blank" href="https://illustrious-kangaroo-346c65.netlify.app/" >
+               <a target="_blank" href="https://shopy-client-side-ssza.vercel.app/" >
                 <span class="material-symbols-outlined eye">
                 language
                 </span>
                 </a>
-               <a href="https://illustrious-kangaroo-346c65.netlify.app/" >
+               <a href="https://shopy-client-side-ssza.vercel.app/" >
                 <span class="material-symbols-outlined code1">
                 code
                 </span>
