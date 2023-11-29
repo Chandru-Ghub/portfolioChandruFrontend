@@ -15,7 +15,7 @@ function App() {
           <BrowserRouter>
               <Navbar/>
           </BrowserRouter>
-       
+
     </div>
     </div>
   );
