@@ -144,7 +144,7 @@ const SliderComp = () => {
               <img src={bulkMail} alt="" />
           </div>
           <div className="cardslider wrap">
-                <a target="_blank" href="https://master--phenomenal-syrniki-d050f2.netlify.app/" >
+                <a target="_blank" href="https://get-fitnow.vercel.app/" >
                       <span class="material-symbols-outlined eye">
                       language
                       </span>
