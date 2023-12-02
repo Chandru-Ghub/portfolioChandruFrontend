@@ -52,11 +52,11 @@ const Navbar = () => {
                             <Link  to='/#home' 
                             onClick={()=>setToggle(!toggle)}
                             className='navs' smooth>
-                                Home
+                                About
                             </Link>
                             <Link  
                             onClick={()=>setToggle(!toggle)}to='/#about' className='navs' smooth>
-                                About
+                                Tech
                             </Link>
                             <Link  onClick={()=>setToggle(!toggle)}to='/#project' className='navs' smooth>
                                 Project
