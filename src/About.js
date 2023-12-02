@@ -9,6 +9,7 @@ import css from './logos/css1.png'
 import javascript from './logos/js.png'
 import express from './logos/express.png'
 import bootstrap from './logos/bootstrap.png'
+import redux from './logos/redux.png'
 const About = () => {
  
   return (
@@ -29,6 +30,7 @@ const About = () => {
                                 <img className='marimage javascript2' src={javascript} alt="" />
                                 <img className='marimage bootstrap2' src={bootstrap} alt="" />
                                 <img className='marimage react2' src={react} alt="" />
+                                <img className='marimage redux' src={redux} alt="" />
                                 <img className='marimage mongo' src={mongo} alt="" />
                                 <img className='marimage node2' src={node} alt="" />
                                 <img className='marimage express2' src={express} alt="" />

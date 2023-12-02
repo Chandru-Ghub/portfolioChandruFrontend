@@ -5,8 +5,19 @@
     font-weight: 1000;
     flex-wrap: wrap;
     color: rgb(255, 255, 255);
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
+}
+.iconslogom{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    gap: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    >li:hover{
+        transform: scale(1.07);
+    }
 }
 
 .qts{
@@ -20,7 +31,7 @@
     background-color: rgba(255, 255, 255, 0.027);
     position: absolute;
     color: rgb(194, 192, 192);
-    bottom: 10px;
+    bottom: 60px;
     right: 20px;
     display: flex;
     align-items: center;

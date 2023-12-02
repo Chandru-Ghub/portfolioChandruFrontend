@@ -13,7 +13,7 @@ const Project = () => {
             <SliderComp/>
     </div> 
       <div className="morepro">
-              <h4 className='pro15'>15+ projects</h4>
+              <h4 className='pro15'>10+ projects</h4>
               <p className='moreWork'>If you have time have a look <span> THE WAY I WALK THROUGH </span></p>
                   <div className='lookup cv'>
           

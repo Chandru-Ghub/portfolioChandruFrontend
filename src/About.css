@@ -69,9 +69,11 @@
   }
  .end{
     margin-right: 20px;
+    font-size: 14px;
  }
  .begin{
     margin-left: 20px;
+    font-size: 14px;
  }
   .abouth3{
     color: rgb(53, 241, 53);
@@ -111,6 +113,9 @@
     height: 250px;
     color: rgb(9, 13, 33);
    
+}
+.redux{
+    padding: 5px;
 }
 .bootstrap{
     background-color: rgb(211, 17, 208);
