@@ -91,7 +91,7 @@ const SliderComp = () => {
                 language
                 </span>
                 </a>
-               <a href="https://shopy-client-side-ssza.vercel.app/" >
+               <a target="_blank" href="https://github.com/Chandru-Ghub/ShopyClientSide" >
                 <span class="material-symbols-outlined code1">
                 code
                 </span>
@@ -111,7 +111,7 @@ const SliderComp = () => {
                     language
                     </span>
                     </a>
-                    <a href="https://harmonious-gaufre-34e64e.netlify.app/" >
+                    <a target="_blank" href="https://github.com/Chandru-Ghub/chatAppfrontend" >
                     <span class="material-symbols-outlined code1">
                     code
                     </span>
@@ -131,7 +131,7 @@ const SliderComp = () => {
                     language
                     </span>
                     </a>
-                  <a href="https://startling-dolphin-d7e7f5.netlify.app/" >
+                  <a target="_blank" href="https://github.com/Chandru-Ghub/bulkemailfrontend" >
                     <span class="material-symbols-outlined code1">
                     code
                     </span>
@@ -149,7 +149,7 @@ const SliderComp = () => {
                       language
                       </span>
                       </a>
-                    <a href="https://master--phenomenal-syrniki-d050f2.netlify.app/" >
+                    <a target="_blank" href="https://github.com/Chandru-Ghub/GetFitnow" >
                       <span class="material-symbols-outlined code1">
                       code
                       </span>
