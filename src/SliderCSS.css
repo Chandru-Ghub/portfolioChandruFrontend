@@ -246,18 +246,28 @@
  
   .proTitle{
     position: absolute;
-    top: 45%;
+    bottom: -40%;
     color: rgb(53, 241, 53);
     z-index: 10;
     padding-left: 10px;
     font-size: 14px;
     font-weight: 800;
-    transform: scale(1);
+    /* transform: scale(0); */
     >p{
         color: rgba(255, 255, 255, 0.889);
     }
     transition: 1s;
  }
+ .cardslider:hover{
+  >img{
+    transform: scale(1.05);
+    /* transition: .5s; */
+  }
+  >.proTitle{
+    transform: scale(1);
+    bottom: 5%;
+  }
+}
  .cardslider{
 
   height: 350px;
