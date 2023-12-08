@@ -49,6 +49,7 @@
 
 .moreWork{
     color: white;
+    font-size: 16px;
     >span{
         color:  rgb(53, 241, 53);
         text-transform: lowercase;
