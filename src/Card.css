@@ -44,6 +44,28 @@
     }
   
 }
+.proTitle{
+    position: absolute;
+    bottom: -40%;
+    /* background-color: rgba(25, 25, 53, 0.727); */
+    color:rgb(255, 255, 255);
+    z-index: 10;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 800;
+    transform: scale(1);
+    transition: 1s;
+    >h1{
+        font-size: 25px;
+    }
+    >p{
+      color: rgb(53, 241, 53);
+    }
+   
+    >img{
+
+    }
+ }
 
 @media(max-width:347px){
     .cd2{

@@ -138,7 +138,7 @@ const Card = () => {
                     </a>
 
               <div className="proTitle">
-              <h1>  BULK EMAIL TOOl</h1>
+              <h1>  BULK EMAIL TOOL</h1>
               <p>Let's send the mail bulk at once</p>
               </div>
               <img src={bulkMail} alt="" />
