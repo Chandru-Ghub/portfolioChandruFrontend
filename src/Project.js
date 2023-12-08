@@ -2,6 +2,7 @@ import React from 'react'
 import './Project.css'
 import { Link } from 'react-router-dom'
 import SliderComp from './SliderComp'
+import Card from './Card'
 const Project = () => {
 
 
@@ -10,7 +11,8 @@ const Project = () => {
 
     <h3 className='myworks'  data-aos="fade-left" data-aos-duration="1500">My works</h3>
     <div className='sliderContainer'>
-            <SliderComp/>
+            {/* <SliderComp/> */}
+            <Card/>
     </div> 
       <div className="morepro">
               <h4 className='pro15'>10+ projects</h4>

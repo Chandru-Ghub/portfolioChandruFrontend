@@ -1,0 +1,45 @@
+
+.cdd{
+    /* background-color: rgb(18, 21, 223); */
+    width:100%;
+    display: flex;
+    justify-content: end;
+
+  }
+.card1{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 20px;
+}
+.pc1{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 30px;
+    margin-bottom: 100px;
+}
+.wrap::after{
+    border-radius: 5px;
+  }
+.cd2{
+    /* width: 320px !important; */
+    height: 300px;
+    background-color: rgba(53, 241, 53, 0.199);
+    /* border: 2px solid rgb(24, 151, 24); */
+    border-radius: 5px;
+    position: relative;
+    >img{
+      /* width:100%; */
+      width: 300px;
+      min-width: 280px;
+      height: 105%;
+      object-fit: cover;
+    
+    }
+  
+}
