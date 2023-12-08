@@ -79,4 +79,18 @@
         }
       
     }
+
+    .proTitle{
+        position: absolute;
+        bottom: -40%;
+        >h1{
+            font-size: 20px;
+        }
+        >p{
+          color: rgb(53, 241, 53);
+          font-size: 12px;
+        }
+       
+     
+     }
 }
