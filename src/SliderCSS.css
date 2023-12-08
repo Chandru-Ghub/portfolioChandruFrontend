@@ -338,9 +338,10 @@
   }
   .proTitle{
     position: absolute;
-    top: 65%;
+    /* top: 65%; */
+    /* bottom: -40%; */
     color: rgb(53, 241, 53);
-    font-size: 13px;
+    font-size: 10px;
  }
 
 }

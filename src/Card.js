@@ -160,20 +160,6 @@ const Card = () => {
               </div>
                 <img src={getfit} alt="" />
           </div>
-
-
-          <div className="cardslider wrap cd2">
-              <div className="proTitle">
-              <h1>LOOK UP</h1>
-              <p>Explore more friends around the world</p>
-              </div>
-          </div>
-          <div className="cardslider wrap cd2">
-              <div className="proTitle">
-              <h1>  RENTY CARS </h1>
-              <p>Easily rent the car from people nearby your location</p>
-              </div>
-          </div>
           
       </div>
     </div>
