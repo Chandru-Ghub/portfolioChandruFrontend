@@ -243,6 +243,13 @@
 }
 
 @media (max-width:660px){
+  .projectdesc{
+    /* background: red; */
+    margin: 15px 0;
+    padding-left: 20px;
+    color: rgb(204, 204, 204);
+    width: 100%;
+  }
  
   .proTitle{
     position: absolute;
@@ -305,6 +312,7 @@
     justify-content: end;
   
   } 
+ 
   
 }
 
