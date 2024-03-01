@@ -11,8 +11,8 @@ const Project = () => {
 
     <h3 className='myworks'  data-aos="fade-left" data-aos-duration="1500">My works</h3>
     <div className='sliderContainer'>
-            {/* <SliderComp/> */}
-            <Card/>
+            <SliderComp/>
+            {/* <Card/> */}
     </div> 
       <div className="morepro">
               <h4 className='pro15'>10+ projects</h4>

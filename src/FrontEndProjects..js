@@ -2,6 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import modeUI from './thumbnail/ModeUI.png'
 import cart from './thumbnail/cart.png'
 import emoji from './thumbnail/emoji.png'
 import burger from './thumbnail/burger.png'
@@ -37,6 +38,11 @@ hiking
 </span>  <span className='to'>___</span> </p>
         <div className='thumbnailContainer' >
 
+            <div className='imgcontainer' data-aos="fade-top" data-aos-duration="1000">
+            <img className='thumbnail' src={modeUI} alt="" />
+                <p className='view'>
+                <a href="https://digilabs-red.vercel.app/" target='blank'>ViewProject</a></p>
+            </div>
             <div className='imgcontainer' data-aos="fade-right" data-aos-duration="1000">
             <img className='thumbnail' src={cart} alt="" />
                 <p className='view'>

@@ -8,6 +8,7 @@ import bulkMail from './thumbnail/e1.png'
 import shopy from './thumbnail/s8.png'
 import getfit from './thumbnail/g1.png'
 import chat from './thumbnail/c3.png'
+import pro5 from './thumbnail/pro5.png'
 
 const SliderComp = () => {
 
@@ -103,7 +104,40 @@ const SliderComp = () => {
               </div>
               <img src={shopy} alt="" />
           </div>
-
+          <div className="cardslider wrap">
+                <a target="_blank" href="https://get-fitnow.vercel.app/" >
+                      <span class="material-symbols-outlined eye">
+                      language
+                      </span>
+                      </a>
+                    <a target="_blank" href="https://github.com/Chandru-Ghub/GetFitnow" >
+                      <span class="material-symbols-outlined code1">
+                      code
+                      </span>
+                  </a>
+              <div className="proTitle">
+              <h1>  GET FIT</h1>
+              <p>A Fitness Web application with admin panel</p>
+              </div>
+                <img src={getfit} alt="" />
+          </div>
+          <div className="cardslider wrap">
+                <a target="_blank" href="https://digilabs-red.vercel.app/" >
+                      <span class="material-symbols-outlined eye">
+                      language
+                      </span>
+                      </a>
+                    <a target="_blank" href="https://github.com/Chandru-Ghub/Digilabs.git" >
+                      <span class="material-symbols-outlined code1">
+                      code
+                      </span>
+                  </a>
+              <div className="proTitle">
+              <h1>MODE UI</h1>
+              <p>A Website with Authentication & Role base acess control</p>
+              </div>
+                <img src={pro5} alt="" />
+          </div>
             <div className="cardslider wrap">
 
                     <a target="_blank" href="https://harmonious-gaufre-34e64e.netlify.app/" >
@@ -143,25 +177,6 @@ const SliderComp = () => {
               </div>
               <img src={bulkMail} alt="" />
           </div>
-          <div className="cardslider wrap">
-                <a target="_blank" href="https://get-fitnow.vercel.app/" >
-                      <span class="material-symbols-outlined eye">
-                      language
-                      </span>
-                      </a>
-                    <a target="_blank" href="https://github.com/Chandru-Ghub/GetFitnow" >
-                      <span class="material-symbols-outlined code1">
-                      code
-                      </span>
-                  </a>
-              <div className="proTitle">
-              <h1>  GET FIT</h1>
-              <p>A Fitness Web application with admin panel</p>
-              </div>
-                <img src={getfit} alt="" />
-          </div>
-
-
           <div className="cardslider wrap">
               <div className="proTitle">
               <h1>LOOK UP</h1>
