@@ -9,6 +9,8 @@ import shopy from './thumbnail/s8.png'
 import getfit from './thumbnail/g1.png'
 import chat from './thumbnail/c3.png'
 import pro5 from './thumbnail/pro5.png'
+import poki from './thumbnail/poki1.png'
+import weather from './thumbnail/wp2.png'
 
 const SliderComp = () => {
 
@@ -178,16 +180,52 @@ const SliderComp = () => {
               <img src={bulkMail} alt="" />
           </div>
           <div className="cardslider wrap">
+          <a target="_blank" href="https://weather-app-client-ivory.vercel.app/" >
+                    <span class="material-symbols-outlined eye">
+                    language
+                    </span>
+                    </a>
+                  <a target="_blank" href="https://github.com/Chandru-Ghub/weatherAppClient" >
+                    <span class="material-symbols-outlined code1">
+                    code
+                    </span>
+                    </a>
+              <div className="proTitle">
+              <h1>Weather App</h1>
+              <p>Real time weather application with weekly forecast</p>
+              </div>
+              <img src={weather} alt="" />
+          </div>
+          <div className="cardslider wrap">
+          <a target="_blank" href="https://pokemon-chi-six.vercel.app/" >
+                    <span class="material-symbols-outlined eye">
+                    language
+                    </span>
+                    </a>
+                  <a target="_blank" href="https://github.com/Chandru-Ghub/pokemon" >
+                    <span class="material-symbols-outlined code1">
+                    code
+                    </span>
+                    </a>
+              <div className="proTitle">
+              <h1>  POKI SWIPE</h1>
+              <p>Pokimon game with collection of pokemons</p>
+              </div>
+              <img src={poki} alt="" />
+          </div>
+          <div className="cardslider wrap">
               <div className="proTitle">
               <h1>LOOK UP</h1>
               <p>Explore more friends around the world</p>
               </div>
           </div>
           <div className="cardslider wrap">
+
               <div className="proTitle">
               <h1>  RENTY CARS </h1>
               <p>Easily rent the car from people nearby your location</p>
               </div>
+        
           </div>
           
         </Slider>
