@@ -10,7 +10,7 @@ import getfit from './thumbnail/g1.png'
 import chat from './thumbnail/c3.png'
 import pro5 from './thumbnail/pro5.png'
 import poki from './thumbnail/poki1.png'
-import weather from './thumbnail/wp2.png'
+import weather from './thumbnail/wp3.png'
 
 const SliderComp = () => {
 
